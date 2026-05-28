@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お問い合わせ | pokecloudbuilder</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; color: #333; background: #f9f9f9; }
+    header { background: #1a73e8; color: white; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; }
+    header h1 { font-size: 1.4rem; }
+    nav a { color: white; text-decoration: none; margin-left: 20px; font-size: 0.95rem; }
+    nav a:hover { text-decoration: underline; }
+    .content { max-width: 600px; margin: 60px auto; padding: 40px; background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    h2 { font-size: 1.8rem; margin-bottom: 16px; }
+    .desc { color: #555; margin-bottom: 30px; line-height: 1.7; }
+    label { display: block; margin-bottom: 6px; font-weight: 600; font-size: 0.95rem; }
+    input, textarea, select { width: 100%; padding: 10px 14px; border: 1px solid #ddd; border-radius: 8px; font-size: 1rem; margin-bottom: 20px; font-family: inherit; }
+    textarea { height: 140px; resize: vertical; }
+    button { background: #1a73e8; color: white; border: none; padding: 12px 32px; border-radius: 8px; font-size: 1rem; cursor: pointer; }
+    button:hover { background: #1558b0; }
+    footer { text-align: center; padding: 30px; background: #333; color: #aaa; font-size: 0.85rem; margin-top: 60px; }
+    footer a { color: #aaa; margin: 0 10px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>pokecloudbuilder</h1>
+    <nav>
+      <a href="index.html">ホーム</a>
+      <a href="privacy-policy.html">プライバシーポリシー</a>
+      <a href="contact.html">お問い合わせ</a>
+    </nav>
+  </header>
+
+  <div class="content">
+    <h2>お問い合わせ</h2>
+    <p class="desc">ご質問・ご要望・不具合報告などは、以下のフォームよりお気軽にお問い合わせください。</p>
+
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <label for="name">お名前</label>
+      <input type="text" id="name" name="name" placeholder="山田 太郎" required>
+
+      <label for="email">メールアドレス</label>
+      <input type="email" id="email" name="email" placeholder="example@email.com" required>
+
+      <label for="app">対象アプリ</label>
+      <select id="app" name="app">
+        <option value="scientific-calculator">Scientific Calculator</option>
+        <option value="other">その他</option>
+      </select>
+
+      <label for="message">お問い合わせ内容</label>
+      <textarea id="message" name="message" placeholder="お問い合わせ内容をご記入ください" required></textarea>
+
+      <button type="submit">送信する</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>
+      <a href="privacy-policy.html">プライバシーポリシー</a>
+      <a href="contact.html">お問い合わせ</a>
+    </p>
+    <p style="margin-top:10px;">&copy; 2025 pokecloudbuilder. All rights reserved.</p>
+  </footer>
+</body>
+</html>
