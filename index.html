@@ -14,11 +14,19 @@
     .hero { text-align: center; padding: 80px 20px; background: white; }
     .hero h2 { font-size: 2rem; margin-bottom: 16px; }
     .hero p { font-size: 1.1rem; color: #555; max-width: 600px; margin: 0 auto; }
-    .apps { padding: 60px 40px; max-width: 900px; margin: 0 auto; }
-    .apps h3 { font-size: 1.5rem; margin-bottom: 30px; text-align: center; }
-    .app-card { background: white; border-radius: 12px; padding: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
-    .app-card h4 { font-size: 1.2rem; margin-bottom: 10px; color: #1a73e8; }
+    .apps, .articles { padding: 60px 40px; max-width: 960px; margin: 0 auto; }
+    .apps h3, .articles h3 { font-size: 1.5rem; margin-bottom: 30px; text-align: center; }
+    .app-list, .article-list { display: grid; gap: 24px; }
+    .app-card, .article-card { background: white; border-radius: 12px; padding: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    .app-card h4, .article-card h4 { font-size: 1.2rem; margin-bottom: 10px; color: #1a73e8; }
     .app-card p { color: #555; line-height: 1.6; }
+    .article-card p { color: #555; line-height: 1.6; margin-bottom: 14px; }
+    .status { display: inline-block; margin-bottom: 12px; padding: 4px 10px; border-radius: 999px; background: #e8f0fe; color: #1a73e8; font-size: 0.85rem; font-weight: 600; }
+    .status.planned { background: #fff7e0; color: #9a6700; }
+    .links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 18px; }
+    .links a { color: #1a73e8; font-weight: 600; text-decoration: none; }
+    .links a:hover { text-decoration: underline; }
+    .articles { padding-top: 0; }
     footer { text-align: center; padding: 30px; background: #333; color: #aaa; font-size: 0.85rem; }
     footer a { color: #aaa; margin: 0 10px; }
   </style>
@@ -34,15 +42,41 @@
   </header>
 
   <section class="hero">
-    <h2>シンプルで使いやすいアプリを届けます</h2>
-    <p>pokecloudbuilder は、日常生活をちょっと便利にするアプリを開発・提供しています。</p>
+    <h2>Web・モバイルアプリを企画から公開までつくります</h2>
+    <p>pokecloudbuilder は、日常の小さな不便を解決するWebアプリ・モバイルアプリを開発、公開しています。</p>
   </section>
 
   <section class="apps">
-    <h3>アプリ一覧</h3>
-    <div class="app-card">
-      <h4>Scientific Calculator</h4>
-      <p>関数計算・数式入力に対応した高機能な科学計算機アプリです。学習・研究・日常計算など幅広い用途にご利用いただけます。</p>
+    <h3>公開中・開発中のプロダクト</h3>
+    <div class="app-list">
+      <div class="app-card">
+        <span class="status">公開中</span>
+        <h4>かのうさルーレット</h4>
+        <p>最大10個の候補からひとつを選べる無料Webルーレットアプリです。ランチ、行き先、順番決め、今日やることなど、迷った時に使えます。</p>
+        <div class="links">
+          <a href="https://kanousa.pokecloudbuilder.com/" target="_blank" rel="noopener">アプリを開く</a>
+          <a href="https://zenn.dev/pokecloudlab/articles/kanousa-cloudflare-pages" target="_blank" rel="noopener">開発記事を読む</a>
+        </div>
+      </div>
+
+      <div class="app-card">
+        <span class="status planned">公開予定</span>
+        <h4>Scientific Calculator</h4>
+        <p>関数計算・数式入力に対応した科学計算機アプリです。学習・研究・日常計算など幅広い用途に向けて、Google Playでの公開準備を進めています。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="articles">
+    <h3>開発ログ</h3>
+    <div class="article-list">
+      <div class="article-card">
+        <h4>個人開発アプリをGoogle Playに出すまでにやったこと一覧</h4>
+        <p>Google Play公開に向けて、開業届、会計管理、ドメイン、メール、Google Play Console、AdMobなど、アプリ開発以外に進めた準備をまとめています。</p>
+        <div class="links">
+          <a href="https://zenn.dev/pokecloudlab/articles/google-play-app-publishing-journey" target="_blank" rel="noopener">記事を読む</a>
+        </div>
+      </div>
     </div>
   </section>
 
