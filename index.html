@@ -7,9 +7,10 @@
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Segoe UI', sans-serif; color: #333; background: #f9f9f9; }
-    header { background: #1a73e8; color: white; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; }
+    header { background: #1a73e8; color: white; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; gap: 18px; }
     header h1 { font-size: 1.4rem; }
-    nav a { color: white; text-decoration: none; margin-left: 20px; font-size: 0.95rem; }
+    nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px 20px; }
+    nav a { color: white; text-decoration: none; font-size: 0.95rem; white-space: nowrap; }
     nav a:hover { text-decoration: underline; }
     .hero { text-align: center; padding: 80px 20px; background: white; }
     .hero h2 { font-size: 2rem; margin-bottom: 16px; }
@@ -29,6 +30,11 @@
     .articles { padding-top: 0; }
     footer { text-align: center; padding: 30px; background: #333; color: #aaa; font-size: 0.85rem; }
     footer a { color: #aaa; margin: 0 10px; }
+    @media (max-width: 600px) {
+      header { padding: 18px 20px; flex-direction: column; align-items: flex-start; }
+      nav { width: 100%; justify-content: flex-start; gap: 8px; }
+      nav a { padding: 6px 10px; border-radius: 999px; background: rgba(255,255,255,0.16); font-size: 0.9rem; }
+    }
   </style>
 </head>
 <body>
