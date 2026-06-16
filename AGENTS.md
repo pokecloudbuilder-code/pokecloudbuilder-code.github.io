@@ -30,8 +30,8 @@ Read `/Users/kidayuichi/Documents/repos/CODEX_CONTEXT.md` before working in this
 - Contact form app options should include every public product plus planned products that users might ask about.
 - 立体視メーカー is public:
   - URL: `https://rittai.pokecloudbuilder.com/`
-  - Product-specific Zenn article: not published yet.
-  - Do not show a Zenn article link until the article URL exists.
+  - Zenn article: `https://zenn.dev/pokecloudlab/articles/stereoscopic-vision-maker-cloudflare-pages`
+  - Product-specific article links should stay inside or near its product card.
 - 年齢・学年・和暦チェッカー is public:
   - URL: `https://nenrei.pokecloudbuilder.com/`
   - Zenn article: `https://zenn.dev/pokecloudlab/articles/age-grade-era-checker-cloudflare-pages`
