@@ -29,6 +29,8 @@
     .app-list, .article-list { display: grid; gap: 24px; }
     .app-card, .article-card { background: white; border-radius: 12px; padding: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
     .app-card h4, .article-card h4 { font-size: 1.2rem; margin-bottom: 10px; color: #1a73e8; }
+    .app-card h4 a { color: inherit; text-decoration: none; }
+    .app-card h4 a:hover { text-decoration: underline; }
     .app-card p { color: #555; line-height: 1.6; }
     .article-card p { color: #555; line-height: 1.6; margin-bottom: 14px; }
     .status { display: inline-block; margin-bottom: 12px; padding: 4px 10px; border-radius: 999px; background: #e8f0fe; color: #1a73e8; font-size: 0.85rem; font-weight: 600; }
@@ -66,7 +68,7 @@
     <div class="app-list">
       <div class="app-card">
         <span class="status">公開中</span>
-        <h4>立体視メーカー</h4>
+        <h4><a href="https://rittai.pokecloudbuilder.com/" target="_blank" rel="noopener">立体視メーカー</a></h4>
         <p>ステレオグラムや左右立体視画像をブラウザで作成できる無料Webアプリです。PNG保存、印刷、共有、立体視チャレンジに対応しています。</p>
         <div class="links">
           <a href="https://rittai.pokecloudbuilder.com/" target="_blank" rel="noopener">アプリを開く</a>
@@ -76,7 +78,7 @@
 
       <div class="app-card">
         <span class="status">公開中</span>
-        <h4>年齢・学年・和暦チェッカー</h4>
+        <h4><a href="https://nenrei.pokecloudbuilder.com/" target="_blank" rel="noopener">年齢・学年・和暦チェッカー</a></h4>
         <p>生年月日から満年齢や学年、入学年度・卒業予定年度を確認し、西暦と和暦を変換できる日本向けの無料Webツールです。</p>
         <div class="links">
           <a href="https://nenrei.pokecloudbuilder.com/" target="_blank" rel="noopener">アプリを開く</a>
@@ -86,7 +88,7 @@
 
       <div class="app-card">
         <span class="status">公開中</span>
-        <h4>かのうさルーレット</h4>
+        <h4><a href="https://kanousa.pokecloudbuilder.com/" target="_blank" rel="noopener">かのうさルーレット</a></h4>
         <p>最大10個の候補からひとつを選べる無料Webルーレットアプリです。ランチ、行き先、順番決め、今日やることなど、迷った時に使えます。</p>
         <div class="links">
           <a href="https://kanousa.pokecloudbuilder.com/" target="_blank" rel="noopener">アプリを開く</a>
@@ -105,14 +107,6 @@
   <section class="articles">
     <h3>開発ログ</h3>
     <div class="article-list">
-      <div class="article-card">
-        <h4>年齢・学年・和暦チェッカーをCloudflare Pagesで公開した</h4>
-        <p>React、TypeScript、Viteで作った日本向けWebツールを、Cloudflare Pagesとサブドメインで公開した流れをまとめています。</p>
-        <div class="links">
-          <a href="https://zenn.dev/pokecloudlab/articles/age-grade-era-checker-cloudflare-pages" target="_blank" rel="noopener">記事を読む</a>
-        </div>
-      </div>
-
       <div class="article-card">
         <h4>個人開発アプリをGoogle Playに出すまでにやったこと一覧</h4>
         <p>Google Play公開に向けて、開業届、会計管理、ドメイン、メール、Google Play Console、AdMobなど、アプリ開発以外に進めた準備をまとめています。</p>
