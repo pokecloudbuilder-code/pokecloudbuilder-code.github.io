@@ -32,6 +32,10 @@ Read `/Users/kidayuichi/Documents/repos/CODEX_CONTEXT.md` before working in this
   - URL: `https://rittai.pokecloudbuilder.com/`
   - Zenn article: `https://zenn.dev/pokecloudlab/articles/stereoscopic-vision-maker-cloudflare-pages`
   - Product-specific article links should stay inside or near its product card.
+- Jam Blocks is public:
+  - URL: `https://jam.pokecloudbuilder.com/`
+  - Zenn article: `https://zenn.dev/pokecloudlab/articles/jam-blocks-alpha`
+  - Product-specific article links should stay inside or near its product card.
 - 年齢・学年・和暦チェッカー is public:
   - URL: `https://nenrei.pokecloudbuilder.com/`
   - Zenn article: `https://zenn.dev/pokecloudlab/articles/age-grade-era-checker-cloudflare-pages`
