@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 624 284" role="img" aria-labelledby="title description">
+  <title id="title">かのうさぎ</title>
+  <desc id="description">pokecloudbuilderの公式案内役、ピンク色のうさぎのキャラクター</desc>
+  <metadata>Source: KanoUsaRoulett/design/kanousa-character.json (SHA-256: aeea80328632ab4001c6789005eaeb0311f16f6b50255692221afd4629f40ecf)</metadata>
+  <ellipse cx="235" cy="118" rx="50" ry="106" fill="#ffdce5" stroke="#f58ca5" stroke-width="10" />
+  <ellipse cx="389" cy="118" rx="50" ry="106" fill="#ffdce5" stroke="#f58ca5" stroke-width="10" />
+  <path d="M78 199 C96 158 147 145 171 142 C195 91 250 91 312 91 C374 91 429 91 453 142 C477 145 528 158 546 199 C571 257 442 282 312 282 C182 282 53 257 78 199 Z" fill="#ffdce5" />
+  <path d="M78 199 C96 158 147 145 171 142 M453 142 C477 145 528 158 546 199 C571 257 442 282 312 282 C182 282 53 257 78 199" fill="none" stroke="#f58ca5" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  <ellipse cx="265" cy="184" rx="10" ry="19" fill="#4f3432" />
+  <ellipse cx="363" cy="184" rx="10" ry="19" fill="#4f3432" />
+  <ellipse cx="262" cy="176" rx="4" ry="6" fill="#ffffff" />
+  <ellipse cx="360" cy="176" rx="4" ry="6" fill="#ffffff" />
+  <path d="M292 218 C292 237 312 237 312 218 C312 237 332 237 332 218" fill="none" stroke="#53363d" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

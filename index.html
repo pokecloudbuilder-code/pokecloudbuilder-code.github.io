@@ -21,9 +21,14 @@
     nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px 20px; }
     nav a { color: white; text-decoration: none; font-size: 0.95rem; white-space: nowrap; }
     nav a:hover { text-decoration: underline; }
-    .hero { text-align: center; padding: 80px 20px; background: white; }
+    .hero { text-align: center; padding: 80px 20px 60px; background: white; }
     .hero h2 { font-size: 2rem; margin-bottom: 16px; }
     .hero p { font-size: 1.1rem; color: #555; max-width: 600px; margin: 0 auto; }
+    .official-guide { display: inline-flex; align-items: center; gap: 14px; margin-top: 32px; padding: 10px 18px 10px 10px; border: 1px solid #f4c7d2; border-radius: 999px; background: #fff8fb; color: #53363d; }
+    .official-guide img { display: block; width: 120px; height: auto; }
+    .official-guide-text { text-align: left; line-height: 1.3; }
+    .official-guide-label { display: block; margin-bottom: 2px; color: #8a6570; font-size: 0.75rem; letter-spacing: 0.08em; }
+    .official-guide-name { display: block; font-size: 1rem; }
     .apps, .articles { padding: 60px 40px; max-width: 960px; margin: 0 auto; }
     .apps h3, .articles h3 { font-size: 1.5rem; margin-bottom: 30px; text-align: center; }
     .app-list, .article-list { display: grid; gap: 24px; }
@@ -45,6 +50,9 @@
       header { padding: 18px 20px; flex-direction: column; align-items: flex-start; }
       nav { width: 100%; justify-content: flex-start; gap: 8px; }
       nav a { padding: 6px 10px; border-radius: 999px; background: rgba(255,255,255,0.16); font-size: 0.9rem; }
+      .hero { padding-top: 64px; }
+      .official-guide { gap: 10px; padding-right: 16px; }
+      .official-guide img { width: 104px; }
     }
   </style>
 </head>
@@ -61,6 +69,13 @@
   <section class="hero">
     <h2>Web・モバイルアプリを企画から公開までつくります</h2>
     <p>pokecloudbuilder は、日常の小さな不便を解決するWebアプリ・モバイルアプリを開発、公開しています。</p>
+    <aside class="official-guide" aria-label="pokecloudbuilder公式案内役">
+      <img src="assets/kanousagi.svg" width="624" height="284" alt="公式案内役のかのうさぎ">
+      <span class="official-guide-text">
+        <span class="official-guide-label">公式案内役</span>
+        <strong class="official-guide-name">かのうさぎ</strong>
+      </span>
+    </aside>
   </section>
 
   <section class="apps">
