@@ -2,6 +2,8 @@
 
 Read `/Users/kidayuichi/Documents/repos/CODEX_CONTEXT.md` before working in this repository.
 
+サイトのデザインやかのうさを変更する前に、`docs/KANOUSA_BRAND.md` と `/Users/kidayuichi/Documents/repos/KanoUsaRoulett/design/kanousa-character.json` を必ず読む。
+
 ## Repository
 
 - Path: `/Users/kidayuichi/Documents/repos/pokecloudbuilder-code.github.io`

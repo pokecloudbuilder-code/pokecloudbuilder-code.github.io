@@ -12,142 +12,116 @@
 
     gtag('config', 'G-C4QVSF5DY2');
   </script>
-  <title>pokecloudbuilder</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Segoe UI', sans-serif; color: #333; background: #f9f9f9; }
-    header { background: #1a73e8; color: white; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; gap: 18px; }
-    header h1 { font-size: 1.4rem; }
-    nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px 20px; }
-    nav a { color: white; text-decoration: none; font-size: 0.95rem; white-space: nowrap; }
-    nav a:hover { text-decoration: underline; }
-    .hero { text-align: center; padding: 80px 20px 60px; background: white; }
-    .hero h2 { font-size: 2rem; margin-bottom: 16px; }
-    .hero p { font-size: 1.1rem; color: #555; max-width: 600px; margin: 0 auto; }
-    .official-guide { display: inline-flex; align-items: center; gap: 14px; margin-top: 32px; padding: 10px 18px 10px 10px; border: 1px solid #f4c7d2; border-radius: 999px; background: #fff8fb; color: #53363d; }
-    .official-guide img { display: block; width: 120px; height: auto; }
-    .official-guide-text { text-align: left; line-height: 1.3; }
-    .official-guide-label { display: block; margin-bottom: 2px; color: #8a6570; font-size: 0.75rem; letter-spacing: 0.08em; }
-    .official-guide-name { display: block; font-size: 1rem; }
-    .apps, .articles { padding: 60px 40px; max-width: 960px; margin: 0 auto; }
-    .apps h3, .articles h3 { font-size: 1.5rem; margin-bottom: 30px; text-align: center; }
-    .app-list, .article-list { display: grid; gap: 24px; }
-    .app-card, .article-card { background: white; border-radius: 12px; padding: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
-    .app-card h4, .article-card h4 { font-size: 1.2rem; margin-bottom: 10px; color: #1a73e8; }
-    .app-card h4 a { color: inherit; text-decoration: none; }
-    .app-card h4 a:hover { text-decoration: underline; }
-    .app-card p { color: #555; line-height: 1.6; }
-    .article-card p { color: #555; line-height: 1.6; margin-bottom: 14px; }
-    .status { display: inline-block; margin-bottom: 12px; padding: 4px 10px; border-radius: 999px; background: #e8f0fe; color: #1a73e8; font-size: 0.85rem; font-weight: 600; }
-    .status.planned { background: #fff7e0; color: #9a6700; }
-    .links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 18px; }
-    .links a { color: #1a73e8; font-weight: 600; text-decoration: none; }
-    .links a:hover { text-decoration: underline; }
-    .articles { padding-top: 0; }
-    footer { text-align: center; padding: 30px; background: #333; color: #aaa; font-size: 0.85rem; }
-    footer a { color: #aaa; margin: 0 10px; }
-    @media (max-width: 600px) {
-      header { padding: 18px 20px; flex-direction: column; align-items: flex-start; }
-      nav { width: 100%; justify-content: flex-start; gap: 8px; }
-      nav a { padding: 6px 10px; border-radius: 999px; background: rgba(255,255,255,0.16); font-size: 0.9rem; }
-      .hero { padding-top: 64px; }
-      .official-guide { gap: 10px; padding-right: 16px; }
-      .official-guide img { width: 104px; }
-    }
-  </style>
+  <meta name="description" content="pokecloudbuilderは、日常の小さな不便を解決するWebアプリ・モバイルアプリを企画・開発・公開しています。">
+  <title>pokecloudbuilder | 日常に役立つWeb・モバイルアプリ</title>
+  <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
-  <header>
-    <h1>pokecloudbuilder</h1>
-    <nav>
-      <a href="index.html">ホーム</a>
-      <a href="privacy-policy.html">プライバシーポリシー</a>
-      <a href="contact.html">お問い合わせ</a>
-    </nav>
+  <a class="skip-link" href="#main-content">本文へ移動</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="pokecloudbuilder ホーム"><span class="brand-mark"></span>pokecloudbuilder</a>
+      <nav class="site-nav" aria-label="主要メニュー">
+        <a href="index.html" aria-current="page">ホーム</a>
+        <a href="#products">アプリ</a>
+        <a href="#articles">開発記事</a>
+        <a href="privacy-policy.html">プライバシー</a>
+        <a class="nav-contact" href="contact.html">お問い合わせ</a>
+      </nav>
+    </div>
   </header>
 
-  <section class="hero">
-    <h2>Web・モバイルアプリを企画から公開までつくります</h2>
-    <p>pokecloudbuilder は、日常の小さな不便を解決するWebアプリ・モバイルアプリを開発、公開しています。</p>
-    <aside class="official-guide" aria-label="pokecloudbuilder公式案内役">
-      <img src="assets/kanousagi.svg" width="624" height="284" alt="公式案内役のかのうさぎ">
-      <span class="official-guide-text">
-        <span class="official-guide-label">公式案内役</span>
-        <strong class="official-guide-name">かのうさぎ</strong>
-      </span>
-    </aside>
-  </section>
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">日常に、ちいさな便利を</p>
+          <h1 id="hero-title">使いやすいアプリを、ていねいにつくる。</h1>
+          <p class="hero-text">pokecloudbuilderは、日常の小さな不便を解決するWebアプリ・モバイルアプリを企画、開発、公開しています。</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#products">公開中のアプリを見る</a>
+            <a class="button button-secondary" href="contact.html">お問い合わせ</a>
+          </div>
+        </div>
+        <aside class="hero-guide" aria-label="pokecloudbuilder公式案内役">
+          <span class="guide-label">公式案内役</span>
+          <img class="guide-image" src="assets/kanousagi.svg" width="624" height="284" alt="かのうさぎ">
+          <p class="guide-caption"><strong>かのうさぎ</strong>が、pokecloudbuilderのアプリをご案内します。</p>
+        </aside>
+      </div>
+    </section>
 
-  <section class="apps">
-    <h3>公開中・開発中のプロダクト</h3>
-    <div class="app-list">
-      <div class="app-card">
-        <span class="status">公開中</span>
-        <h4><a href="https://jam.pokecloudbuilder.com/" target="_blank" rel="noopener">Jam Blocks</a></h4>
-        <p>一人で楽器を練習するときに、ドラム、ベース、ギターの伴奏をブロックで組み立ててループ再生できる無料Webアプリです。BPM設定、コード進行、ローカル保存、PWAに対応しています。</p>
-        <div class="links">
-          <a href="https://jam.pokecloudbuilder.com/" target="_blank" rel="noopener">アプリを開く</a>
-          <a href="https://zenn.dev/pokecloudlab/articles/jam-blocks-alpha" target="_blank" rel="noopener">開発記事を読む</a>
+    <section id="products" class="section" aria-labelledby="products-title">
+      <div class="container">
+        <p class="eyebrow">Apps</p>
+        <h2 id="products-title" class="section-heading">公開中・開発中のアプリ</h2>
+        <p class="section-lead">ふだんの暮らしや趣味で、気軽に使えるアプリを公開しています。</p>
+        <div class="product-grid">
+          <article class="product-card featured">
+            <div class="product-top"><span class="status">公開中</span><span class="product-symbol" aria-hidden="true">♪</span></div>
+            <h3><a href="https://jam.pokecloudbuilder.com/" target="_blank" rel="noopener">Jam Blocks</a></h3>
+            <p>一人で楽器を練習するときに、ドラム、ベース、ギターの伴奏をブロックで組み立ててループ再生できる無料Webアプリです。BPM設定、コード進行、ローカル保存、PWAに対応しています。</p>
+            <div class="card-actions"><a class="button button-primary" href="https://jam.pokecloudbuilder.com/" target="_blank" rel="noopener">アプリを使う</a><a class="text-link" href="https://zenn.dev/pokecloudlab/articles/jam-blocks-alpha" target="_blank" rel="noopener">開発記事を読む</a></div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-top"><span class="status">公開中</span><span class="product-symbol" aria-hidden="true">◉</span></div>
+            <h3><a href="https://rittai.pokecloudbuilder.com/" target="_blank" rel="noopener">立体視メーカー</a></h3>
+            <p>ステレオグラムや左右立体視画像をブラウザで作成できる無料Webアプリです。PNG保存、印刷、共有、立体視チャレンジに対応しています。</p>
+            <div class="card-actions"><a class="button button-primary" href="https://rittai.pokecloudbuilder.com/" target="_blank" rel="noopener">アプリを使う</a><a class="text-link" href="https://zenn.dev/pokecloudlab/articles/stereoscopic-vision-maker-cloudflare-pages" target="_blank" rel="noopener">開発記事を読む</a></div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-top"><span class="status">公開中</span><span class="product-symbol" aria-hidden="true">年</span></div>
+            <h3><a href="https://nenrei.pokecloudbuilder.com/" target="_blank" rel="noopener">年齢・学年・和暦チェッカー</a></h3>
+            <p>生年月日から満年齢や学年、入学年度・卒業予定年度を確認し、西暦と和暦を変換できる日本向けの無料Webツールです。</p>
+            <div class="card-actions"><a class="button button-primary" href="https://nenrei.pokecloudbuilder.com/" target="_blank" rel="noopener">アプリを使う</a><a class="text-link" href="https://zenn.dev/pokecloudlab/articles/age-grade-era-checker-cloudflare-pages" target="_blank" rel="noopener">開発記事を読む</a></div>
+          </article>
+
+          <article class="product-card featured">
+            <div class="product-top"><span class="status">公開中</span><span class="product-symbol" aria-hidden="true">◎</span></div>
+            <h3><a href="https://kanousa.pokecloudbuilder.com/" target="_blank" rel="noopener">かのうさルーレット</a></h3>
+            <p>最大10個の候補からひとつを選べる無料Webルーレットアプリです。ランチ、行き先、順番決め、今日やることなど、迷った時に使えます。</p>
+            <div class="card-actions"><a class="button button-primary" href="https://kanousa.pokecloudbuilder.com/" target="_blank" rel="noopener">アプリを使う</a><a class="text-link" href="https://zenn.dev/pokecloudlab/articles/kanousa-cloudflare-pages" target="_blank" rel="noopener">開発記事を読む</a></div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-top"><span class="status status-planned">公開予定</span><span class="product-symbol" aria-hidden="true">∑</span></div>
+            <h3>Scientific Calculator</h3>
+            <p>関数計算・数式入力に対応した科学計算機アプリです。学習・研究・日常計算など幅広い用途に向けて、Google Playでの公開準備を進めています。</p>
+          </article>
         </div>
       </div>
+    </section>
 
-      <div class="app-card">
-        <span class="status">公開中</span>
-        <h4><a href="https://rittai.pokecloudbuilder.com/" target="_blank" rel="noopener">立体視メーカー</a></h4>
-        <p>ステレオグラムや左右立体視画像をブラウザで作成できる無料Webアプリです。PNG保存、印刷、共有、立体視チャレンジに対応しています。</p>
-        <div class="links">
-          <a href="https://rittai.pokecloudbuilder.com/" target="_blank" rel="noopener">アプリを開く</a>
-          <a href="https://zenn.dev/pokecloudlab/articles/stereoscopic-vision-maker-cloudflare-pages" target="_blank" rel="noopener">開発記事を読む</a>
+    <section id="articles" class="section section-soft" aria-labelledby="articles-title">
+      <div class="container article-layout">
+        <div>
+          <p class="eyebrow">Development notes</p>
+          <h2 id="articles-title" class="section-heading">開発の記録</h2>
+          <p class="section-lead">アプリを形にするまでの考え方や、個人開発で進めた準備をZennにまとめています。</p>
+        </div>
+        <article class="article-card">
+          <p class="article-date">Zenn</p>
+          <h3>個人開発アプリをGoogle Playに出すまでにやったこと一覧</h3>
+          <p>Google Play公開に向けて、開業届、会計管理、ドメイン、メール、Google Play Console、AdMobなど、アプリ開発以外に進めた準備をまとめています。</p>
+          <div class="article-actions"><a class="button button-secondary" href="https://zenn.dev/pokecloudlab/articles/google-play-app-publishing-journey" target="_blank" rel="noopener">記事を読む</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="contact-title">
+      <div class="container contact-band">
+        <div class="contact-band-inner">
+          <div><p class="eyebrow">Contact</p><h2 id="contact-title" class="section-heading">ご意見・ご質問をお待ちしています。</h2><p class="section-lead">アプリの使い方、不具合、ご要望などはお問い合わせフォームからお送りください。</p></div>
+          <a class="button button-primary" href="contact.html">お問い合わせへ</a>
         </div>
       </div>
+    </section>
+  </main>
 
-      <div class="app-card">
-        <span class="status">公開中</span>
-        <h4><a href="https://nenrei.pokecloudbuilder.com/" target="_blank" rel="noopener">年齢・学年・和暦チェッカー</a></h4>
-        <p>生年月日から満年齢や学年、入学年度・卒業予定年度を確認し、西暦と和暦を変換できる日本向けの無料Webツールです。</p>
-        <div class="links">
-          <a href="https://nenrei.pokecloudbuilder.com/" target="_blank" rel="noopener">アプリを開く</a>
-          <a href="https://zenn.dev/pokecloudlab/articles/age-grade-era-checker-cloudflare-pages" target="_blank" rel="noopener">開発記事を読む</a>
-        </div>
-      </div>
-
-      <div class="app-card">
-        <span class="status">公開中</span>
-        <h4><a href="https://kanousa.pokecloudbuilder.com/" target="_blank" rel="noopener">かのうさルーレット</a></h4>
-        <p>最大10個の候補からひとつを選べる無料Webルーレットアプリです。ランチ、行き先、順番決め、今日やることなど、迷った時に使えます。</p>
-        <div class="links">
-          <a href="https://kanousa.pokecloudbuilder.com/" target="_blank" rel="noopener">アプリを開く</a>
-          <a href="https://zenn.dev/pokecloudlab/articles/kanousa-cloudflare-pages" target="_blank" rel="noopener">開発記事を読む</a>
-        </div>
-      </div>
-
-      <div class="app-card">
-        <span class="status planned">公開予定</span>
-        <h4>Scientific Calculator</h4>
-        <p>関数計算・数式入力に対応した科学計算機アプリです。学習・研究・日常計算など幅広い用途に向けて、Google Playでの公開準備を進めています。</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="articles">
-    <h3>開発ログ</h3>
-    <div class="article-list">
-      <div class="article-card">
-        <h4>個人開発アプリをGoogle Playに出すまでにやったこと一覧</h4>
-        <p>Google Play公開に向けて、開業届、会計管理、ドメイン、メール、Google Play Console、AdMobなど、アプリ開発以外に進めた準備をまとめています。</p>
-        <div class="links">
-          <a href="https://zenn.dev/pokecloudlab/articles/google-play-app-publishing-journey" target="_blank" rel="noopener">記事を読む</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <p>
-      <a href="privacy-policy.html">プライバシーポリシー</a>
-      <a href="contact.html">お問い合わせ</a>
-    </p>
-    <p style="margin-top:10px;">&copy; 2025 pokecloudbuilder. All rights reserved.</p>
+  <footer class="site-footer">
+    <div class="footer-inner"><nav class="footer-nav" aria-label="フッターメニュー"><a href="index.html">ホーム</a><a href="privacy-policy.html">プライバシーポリシー</a><a href="contact.html">お問い合わせ</a></nav><p class="copyright">&copy; 2025 pokecloudbuilder</p></div>
   </footer>
 </body>
 </html>

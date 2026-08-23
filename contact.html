@@ -12,82 +12,41 @@
 
     gtag('config', 'G-C4QVSF5DY2');
   </script>
+  <meta name="description" content="pokecloudbuilderへのお問い合わせはこちらから。アプリの使い方、ご要望、不具合報告を受け付けています。">
   <title>お問い合わせ | pokecloudbuilder</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Segoe UI', sans-serif; color: #333; background: #f9f9f9; }
-    header { background: #1a73e8; color: white; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; gap: 18px; }
-    header h1 { font-size: 1.4rem; }
-    nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px 20px; }
-    nav a { color: white; text-decoration: none; font-size: 0.95rem; white-space: nowrap; }
-    nav a:hover { text-decoration: underline; }
-    .content { max-width: 600px; margin: 60px auto; padding: 40px; background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
-    .content a { overflow-wrap: anywhere; }
-    h2 { font-size: 1.8rem; margin-bottom: 16px; }
-    .desc { color: #555; margin-bottom: 30px; line-height: 1.7; }
-    label { display: block; margin-bottom: 6px; font-weight: 600; font-size: 0.95rem; }
-    input, textarea, select { width: 100%; padding: 10px 14px; border: 1px solid #ddd; border-radius: 8px; font-size: 1rem; margin-bottom: 20px; font-family: inherit; }
-    textarea { height: 140px; resize: vertical; }
-    button { background: #1a73e8; color: white; border: none; padding: 12px 32px; border-radius: 8px; font-size: 1rem; cursor: pointer; }
-    button:hover { background: #1558b0; }
-    .business-info { margin-top: 40px; padding-top: 30px; border-top: 1px solid #eee; }
-    .business-info h3 { font-size: 1.2rem; margin-bottom: 18px; }
-    .business-info dl { display: grid; grid-template-columns: 120px 1fr; gap: 12px 16px; color: #555; line-height: 1.7; }
-    .business-info dt { font-weight: 600; color: #333; }
-    .business-info a { color: #1a73e8; }
-    @media (max-width: 520px) {
-      .business-info dl { grid-template-columns: 1fr; gap: 4px 0; }
-      .business-info dd { margin-bottom: 10px; }
-    }
-    @media (max-width: 600px) {
-      header { padding: 18px 20px; flex-direction: column; align-items: flex-start; }
-      nav { width: 100%; justify-content: flex-start; gap: 8px; }
-      nav a { padding: 6px 10px; border-radius: 999px; background: rgba(255,255,255,0.16); font-size: 0.9rem; }
-      .content { margin: 32px 16px; padding: 28px 20px; }
-    }
-    footer { text-align: center; padding: 30px; background: #333; color: #aaa; font-size: 0.85rem; margin-top: 60px; }
-    footer a { color: #aaa; margin: 0 10px; }
-  </style>
+  <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
-  <header>
-    <h1>pokecloudbuilder</h1>
-    <nav>
-      <a href="index.html">ホーム</a>
-      <a href="privacy-policy.html">プライバシーポリシー</a>
-      <a href="contact.html">お問い合わせ</a>
-    </nav>
+  <a class="skip-link" href="#main-content">本文へ移動</a>
+  <header class="site-header"><div class="header-inner"><a class="brand" href="index.html" aria-label="pokecloudbuilder ホーム"><span class="brand-mark"></span>pokecloudbuilder</a><nav class="site-nav" aria-label="主要メニュー"><a href="index.html">ホーム</a><a href="index.html#products">アプリ</a><a href="index.html#articles">開発記事</a><a href="privacy-policy.html">プライバシー</a><a class="nav-contact" href="contact.html" aria-current="page">お問い合わせ</a></nav></div>
   </header>
 
-  <div class="content">
-    <h2>お問い合わせ</h2>
-    <p class="desc">ご質問・ご要望・不具合報告などは、以下のフォームよりお気軽にお問い合わせください。</p>
+  <main id="main-content">
+    <section class="page-hero"><div class="container"><p class="eyebrow">Contact</p><h1>お問い合わせ</h1><p>ご質問・ご要望・不具合報告などを受け付けています。</p></div></section>
+    <div class="page-content"><div class="contact-card">
+    <p class="form-intro">対象のアプリを選び、内容をご記入ください。確認のうえ、必要に応じてご連絡します。</p>
 
     <form action="https://formspree.io/f/mredjzkz" method="POST">
-      <label for="name">お名前</label>
-      <input type="text" id="name" name="name" placeholder="山田 太郎" required>
+      <div class="form-field"><label for="name">お名前</label><input type="text" id="name" name="name" autocomplete="name" placeholder="山田 太郎" required></div>
 
-      <label for="email">メールアドレス</label>
-      <input type="email" id="email" name="email" placeholder="example@email.com" required>
+      <div class="form-field"><label for="email">メールアドレス</label><input type="email" id="email" name="email" autocomplete="email" placeholder="example@email.com" required></div>
 
-      <label for="app">対象アプリ</label>
-      <select id="app" name="app">
+      <div class="form-field"><label for="app">対象アプリ</label><select id="app" name="app">
         <option value="jam-blocks">Jam Blocks</option>
         <option value="stereoscopic-vision-maker">立体視メーカー</option>
         <option value="age-grade-era-checker">年齢・学年・和暦チェッカー</option>
         <option value="kanousa-roulette">かのうさルーレット</option>
         <option value="scientific-calculator">Scientific Calculator</option>
         <option value="other">その他</option>
-      </select>
+      </select></div>
 
-      <label for="message">お問い合わせ内容</label>
-      <textarea id="message" name="message" placeholder="お問い合わせ内容をご記入ください" required></textarea>
+      <div class="form-field"><label for="message">お問い合わせ内容</label><textarea id="message" name="message" placeholder="お問い合わせ内容をご記入ください" required></textarea></div>
 
-      <button type="submit">送信する</button>
+      <button class="button button-primary form-submit" type="submit">送信する</button>
     </form>
 
     <section class="business-info">
-      <h3>事業者情報</h3>
+      <h2>事業者情報</h2>
       <dl>
         <dt>屋号</dt>
         <dd>pokecloudbuilder</dd>
@@ -114,14 +73,10 @@
         <dd>2025年8月30日</dd>
       </dl>
     </section>
-  </div>
+    </div></div>
+  </main>
 
-  <footer>
-    <p>
-      <a href="privacy-policy.html">プライバシーポリシー</a>
-      <a href="contact.html">お問い合わせ</a>
-    </p>
-    <p style="margin-top:10px;">&copy; 2025 pokecloudbuilder. All rights reserved.</p>
+  <footer class="site-footer"><div class="footer-inner"><nav class="footer-nav" aria-label="フッターメニュー"><a href="index.html">ホーム</a><a href="privacy-policy.html">プライバシーポリシー</a><a href="contact.html">お問い合わせ</a></nav><p class="copyright">&copy; 2025 pokecloudbuilder</p></div>
   </footer>
 </body>
 </html>
