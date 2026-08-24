@@ -99,6 +99,7 @@ main { overflow: hidden; }
 .text-link::after { margin-left: 0.3rem; content: "→"; }
 
 .article-layout { display: grid; grid-template-columns: minmax(0, 0.7fr) minmax(0, 1.3fr); align-items: end; gap: var(--space-5); }
+.article-list { display: grid; gap: var(--space-4); }
 .article-card { padding: var(--space-5); }
 .article-date { color: var(--color-blue-dark); font-size: var(--text-small); font-weight: 800; }
 .contact-band { padding: var(--space-6); border-radius: var(--radius-large); background: var(--color-ink); color: var(--color-white); }
