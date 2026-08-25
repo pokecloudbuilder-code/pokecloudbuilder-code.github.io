@@ -30,6 +30,9 @@ Read `/Users/kidayuichi/Documents/repos/CODEX_CONTEXT.md` before working in this
 
 - Public product cards on `index.html` must be ordered by release recency, newest public release first. Planned products stay after public products.
 - Contact form app options should include every public product plus planned products that users might ask about.
+- かのうさぎの日常スタンプ is public:
+  - URL: `https://line.me/S/sticker/36098630`
+  - Show it as the newest public product until a newer product is released.
 - 立体視メーカー is public:
   - URL: `https://rittai.pokecloudbuilder.com/`
   - Zenn article: `https://zenn.dev/pokecloudlab/articles/stereoscopic-vision-maker-cloudflare-pages`
