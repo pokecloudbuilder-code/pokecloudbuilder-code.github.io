@@ -30,9 +30,12 @@ Read `/Users/kidayuichi/Documents/repos/CODEX_CONTEXT.md` before working in this
 
 - Public product cards on `index.html` must be ordered by release recency, newest public release first. Planned products stay after public products.
 - Contact form app options should include every public product plus planned products that users might ask about.
+- Scientific Calculator is public on Google Play:
+  - URL: `https://play.google.com/store/apps/details?id=com.pokecloudbuilder.scientificcalculator`
+  - Android package: `com.pokecloudbuilder.scientificcalculator`
+  - Show it as the newest public product until a newer product is released.
 - かのうさぎの日常スタンプ is public:
   - URL: `https://line.me/S/sticker/36098630`
-  - Show it as the newest public product until a newer product is released.
 - 立体視メーカー is public:
   - URL: `https://rittai.pokecloudbuilder.com/`
   - Zenn article: `https://zenn.dev/pokecloudlab/articles/stereoscopic-vision-maker-cloudflare-pages`
@@ -49,9 +52,6 @@ Read `/Users/kidayuichi/Documents/repos/CODEX_CONTEXT.md` before working in this
   - URL: `https://kanousa.pokecloudbuilder.com/`
   - Zenn article: `https://zenn.dev/pokecloudlab/articles/kanousa-cloudflare-pages`
   - Product-specific article links should stay inside or near its product card.
-- Scientific Calculator is not public yet:
-  - Describe it as `公開予定`, `公開準備中`, or similar.
-  - Do not imply it is already available on Google Play until released.
 - General articles such as Google Play preparation should go in a development log or articles section.
 
 ## Workflow
